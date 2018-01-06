@@ -55,6 +55,14 @@ $config['db_prefix'] = '';
 $config['theme'] = 'default';
 
 /**
+ * Display QR code
+ *
+ * Whether or not to display the QR code
+ *
+*/
+$config['qr_enabled'] = true;
+
+/**
  * JavaScript-Editor
  *
  * Which editor to use
@@ -151,6 +159,7 @@ $config['shorturl_selected'] = false;
 
 // goo.gl API key
 $config['googl_url_api'] = '';
+
 // Bit.ly API key
 $config['bitly_url_api'] = '';
 
