@@ -24,7 +24,7 @@ $config['base_url']	= '';
 | So that we can track your version.
 |
 */
-$config['stikked_version'] = '0.12.0';
+$config['stikked_version'] = '0.13.0';
 
 /*
 |--------------------------------------------------------------------------
@@ -101,7 +101,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = TRUE;
+$config['enable_hooks'] = FALSE;
 
 
 /*
@@ -201,7 +201,7 @@ $config['log_threshold'] = 4;
 | application/logs/ folder. Use a full server path with trailing slash.
 |
 */
-$config['log_path'] = '/tmp/ci.log';
+$config['log_path'] = '';
 
 /*
 |--------------------------------------------------------------------------
