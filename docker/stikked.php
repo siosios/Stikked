@@ -16,7 +16,7 @@ $config['site_name'] = 'Stikked';
  * Set the base URL of Stikked. WITH trailing slash!
  *
  */
-$config['base_url'] = 'https://yourpastebin.com/';
+$config['base_url'] = 'http://localhost/';
 
 /**
  * Database connection
@@ -25,7 +25,7 @@ $config['base_url'] = 'https://yourpastebin.com/';
  * The database structure will be created automatically
  *
  */
-$config['db_hostname'] = '127.0.0.1';
+$config['db_hostname'] = 'mysql';
 $config['db_database'] = 'stikked';
 $config['db_username'] = 'stikked';
 $config['db_password'] = 'stikked';
@@ -91,7 +91,7 @@ $config['language'] = 'english';
  * htdocs/static/asset/ folder must be writeable
  *
  */
-$config['combine_assets'] = false;
+$config['combine_assets'] = false; # chown 82 htdocs/static/asset/ for Docker
 
 /**
  * Content expiration
